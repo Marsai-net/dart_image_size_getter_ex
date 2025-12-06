@@ -8,7 +8,8 @@ environment:
   sdk: ">=2.12.0 <3.0.0"
 
 dependencies:
-  image_size_getter: any
+  image_size_getter:
+    path: ../image_size_getter
 
 dev_dependencies:
   pedantic: ^1.7.0
